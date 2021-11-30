@@ -28,6 +28,8 @@ function App() {
           <Route path="/relaxation" element={<RelaxationPage />} />
           <Route path="/meditation" element={<MeditationPage />} />
           <Route path="/help" element={<HelpPage />} />
+          <Route path="/register" element={<RegisterPage />} />
+          <Route path="/login" element={<LoginPage />} />
         </Routes>
       </Router>
     </div>
@@ -59,6 +61,12 @@ const Navbar = () => {
           </Typography>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             <Link to="/help">Help</Link>
+          </Typography>
+          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+            <Link to="/register">Register</Link>
+          </Typography>
+          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+            <Link to="/login">Login</Link>
           </Typography>
         </Toolbar>
       </AppBar>
@@ -608,36 +616,36 @@ const RelaxationPage = () => {
           height="315"
           src="https://www.youtube.com/embed/lFcSrYw-ARY"
           title="YouTube video player"
-          frameborder="0"
+          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
         <iframe
           width="560"
           height="315"
           src="https://www.youtube.com/embed/Hg-dJOSSAfc"
           title="YouTube video player"
-          frameborder="0"
+          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
         <iframe
           width="560"
           height="315"
           src="https://www.youtube.com/embed/FK_dVfxA19k"
           title="YouTube video player"
-          frameborder="0"
+          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
         <iframe
           width="560"
           height="315"
           src="https://www.youtube.com/embed/FjHGZj2IjBk"
           title="YouTube video player"
-          frameborder="0"
+          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
         <h3>Music to help you work</h3>
         <iframe
@@ -645,36 +653,36 @@ const RelaxationPage = () => {
           height="315"
           src="https://www.youtube.com/embed/_4kHxtiuML0"
           title="YouTube video player"
-          frameborder="0"
+          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
         <iframe
           width="560"
           height="315"
           src="https://www.youtube.com/embed/ZVb_yKMivqo"
           title="YouTube video player"
-          frameborder="0"
+          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
         <iframe
           width="560"
           height="315"
           src="https://www.youtube.com/embed/vDYP6AKw8bk"
           title="YouTube video player"
-          frameborder="0"
+          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
         <iframe
           width="560"
           height="315"
           src="https://www.youtube.com/embed/2TvWZEVf6go"
           title="YouTube video player"
-          frameborder="0"
+          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
         <h3>Music of the nature</h3>
         <iframe
@@ -682,36 +690,36 @@ const RelaxationPage = () => {
           height="315"
           src="https://www.youtube.com/embed/3EhnDyriMqM"
           title="YouTube video player"
-          frameborder="0"
+          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
         <iframe
           width="560"
           height="315"
           src="https://www.youtube.com/embed/Nd7e4SNjGBM"
           title="YouTube video player"
-          frameborder="0"
+          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
         <iframe
           width="560"
           height="315"
           src="https://www.youtube.com/embed/WZKW2Hq2fks"
           title="YouTube video player"
-          frameborder="0"
+          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
         <iframe
           width="560"
           height="315"
           src="https://www.youtube.com/embed/AdzqdAQDqgI"
           title="YouTube video player"
-          frameborder="0"
+          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
       </div>
     </Container>
@@ -764,36 +772,36 @@ const MeditationPage = () => {
           height="315"
           src="https://www.youtube.com/embed/CVW_IE1nsKE"
           title="YouTube video player"
-          frameborder="0"
+          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
         <iframe
           width="560"
           height="315"
           src="https://www.youtube.com/embed/WUASVHlfXeI"
           title="YouTube video player"
-          frameborder="0"
+          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
         <iframe
           width="560"
           height="315"
           src="https://www.youtube.com/embed/inpok4MKVLM"
           title="YouTube video player"
-          frameborder="0"
+          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
         <iframe
           width="560"
           height="315"
           src="https://www.youtube.com/embed/8Xdwr4cRTVA"
           title="YouTube video player"
-          frameborder="0"
+          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
         <h3>Guided breathing exercises</h3>
         Deep breathing is one of the best ways to lower stress in the body. This
@@ -809,36 +817,36 @@ const MeditationPage = () => {
           height="315"
           src="https://www.youtube.com/embed/tEmt1Znux58"
           title="YouTube video player"
-          frameborder="0"
+          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
         <iframe
           width="560"
           height="315"
           src="https://www.youtube.com/embed/SEfs5TJZ6Nk"
           title="YouTube video player"
-          frameborder="0"
+          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
         <iframe
           width="560"
           height="315"
           src="https://www.youtube.com/embed/8vkYJf8DOsc"
           title="YouTube video player"
-          frameborder="0"
+          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
         <iframe
           width="560"
           height="315"
           src="https://www.youtube.com/embed/DLkoZtiXeqQ"
           title="YouTube video player"
-          frameborder="0"
+          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
         <h3>Music of the nature</h3>
         “Just feel the magic in the air and the power in the breeze, feel the
@@ -852,36 +860,36 @@ const MeditationPage = () => {
           height="315"
           src="https://www.youtube.com/embed/ausxoXBrmWs"
           title="YouTube video player"
-          frameborder="0"
+          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
         <iframe
           width="560"
           height="315"
           src="https://www.youtube.com/embed/vBO8QEjANjs"
           title="YouTube video player"
-          frameborder="0"
+          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
         <iframe
           width="560"
           height="315"
           src="https://www.youtube.com/embed/CTS6E_0oAJg"
           title="YouTube video player"
-          frameborder="0"
+          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
         <iframe
           width="560"
           height="315"
           src="https://www.youtube.com/embed/CcqZ47d398k"
           title="YouTube video player"
-          frameborder="0"
+          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
       </div>
     </Container>
@@ -1140,6 +1148,150 @@ const Tracker = ({ id, name, addData }) => {
         ))}
       </Grid>
     </Stack>
+  );
+};
+
+const RegisterPage = () => {
+  const [name, setName] = useState("");
+  const [age, setAge] = useState("");
+  const [team, setTeam] = useState("");
+  const [username, setUsername] = useState("");
+  const [password, setPassword] = useState("");
+  const [response, setResponse] = useState(null);
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    const data = {
+      name,
+      age,
+      team,
+      username,
+      password,
+    };
+
+    const response = await axios.post("http://localhost:4000/register", data);
+
+    setResponse(response.data);
+  };
+  return (
+    <Container>
+      <form onSubmit={handleSubmit}>
+        <Stack direction="column" gap={4} marginTop={4}>
+          <TextField
+            id="name"
+            name="name"
+            title="Name"
+            required
+            type="text"
+            placeholder="Enter your full name"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+          />
+          <TextField
+            id="age"
+            name="age"
+            type="number"
+            placeholder="Enter your age"
+            value={age}
+            onChange={(e) => setAge(e.target.value)}
+          />
+          <TextField
+            id="team"
+            name="team"
+            type="text"
+            placeholder="Enter your team"
+            value={team}
+            onChange={(e) => setTeam(e.target.value)}
+          />
+          <TextField
+            id="username"
+            name="username"
+            type="text"
+            required
+            placeholder="Enter your username"
+            value={username}
+            onChange={(e) => setUsername(e.target.value)}
+          />
+          <TextField
+            id="password"
+            name="password"
+            type="password"
+            required
+            placeholder="Enter your password"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+          />
+
+          <Button
+            type="submit"
+            value="Submit"
+            variant="contained"
+            color="primary"
+          >
+            Register
+          </Button>
+        </Stack>
+      </form>
+
+      {response && <Typography>{response.message}</Typography>}
+    </Container>
+  );
+};
+
+const LoginPage = () => {
+  const [username, setUsername] = useState("");
+  const [password, setPassword] = useState("");
+  const [response, setResponse] = useState(null);
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    const data = {
+      username,
+      password,
+    };
+    const response = await axios.post("http://localhost:4000/login", data);
+
+    setResponse(response.data);
+  };
+
+  return (
+    <Container>
+      <form onSubmit={handleSubmit}>
+        <Stack direction="column" gap={4} marginTop={4}>
+          <TextField
+            id="username"
+            name="username"
+            type="text"
+            required
+            placeholder="Enter your username"
+            value={username}
+            onChange={(e) => setUsername(e.target.value)}
+          />
+          <TextField
+            id="password"
+            name="password"
+            type="password"
+            required
+            placeholder="Enter your password"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+          />
+
+          <Button
+            type="submit"
+            value="Submit"
+            variant="contained"
+            color="primary"
+          >
+            Login
+          </Button>
+        </Stack>
+      </form>
+
+      {response && <Typography>{response.message}</Typography>}
+    </Container>
   );
 };
 
